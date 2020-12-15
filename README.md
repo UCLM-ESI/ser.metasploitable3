@@ -9,7 +9,9 @@ kali + metasploitable3 vagrant stup
 To see IP addresses:
 
 - 'kali' and 'ubuntu':
-  vagrant ssh <vm> -- ip a show dev eth1
+
+      $ vagrant ssh <vm> -- ip a show dev eth1
   
 - win2k:
-  vagrant winrm win2k --command "ipconfig"
+
+      $ vagrant winrm win2k --command "ipconfig"
