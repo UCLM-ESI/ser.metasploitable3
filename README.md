@@ -1,10 +1,10 @@
 kali + metasploitable3 vagrant stup
 -----------------------------------
 
-$ ./setup-win2k.sh      # install vagrant plugins for win
-$ ./setup-dhcp.sh       # set DHCP config for "intnet"
-$ vagrant up
-$ ./setup-ubuntu.sh     # fix ssh private key in ubuntu 
+    $ ./setup-win2k.sh      # install vagrant plugins for win
+    $ ./setup-dhcp.sh       # set DHCP config for "intnet"
+    $ vagrant up
+    $ ./setup-ubuntu.sh     # fix ssh private key in ubuntu 
 
 To see IP addresses:
 
