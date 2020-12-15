@@ -1,0 +1,16 @@
+Instalar plugins para win2k:
+./setup-win2k.sh
+
+Fijar configuración del servidor DHCP para "intnet":
+./setup-dhcp.sh
+
+Después de "vagrant up ubuntu", instalar clave SSH privada:
+./setup-ubuntu.sh
+
+Para ver direcciones IP:
+- kali y ubuntu:
+  vagrant ssh kali -- ip a show dev eth1
+  vagrant ssh ubuntu -- ip a show dev eth1
+  
+- win2k:
+  vagrant winrm win2k --command "ipconfig"
